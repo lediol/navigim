@@ -1,0 +1,36 @@
+/* stilimi i faqes html*/
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*lloji i shkrimit*/
+    margin: 0%;/*heq margin nga elementi body*/
+    padding: 0%;/* heq padding nga elementi body*/
+
+
+
+}   
+/* stilimet per navigimin*/
+.navbar{
+background-color:red;/*vendos ngjyren e sfondit te menuse me ngjyre te kuqe*/
+overflow: hidden;/*parandalon qe permbajta te dale jashte menuse*/
+}
+.navbar ul{
+    list-style: none;/* heq shenjat e paracaktuara te listes per listen e renditur*/
+    margin: 0%;
+    padding: 0%;
+    display: flex;/* ben qe elementi ne list te shfaqen te rresht*/
+
+}
+.navbar li{
+    flex: 1;/* ben qe secili element i listes te zere hapsire te barabarte*/
+}
+.navbar a {
+    display: block;/*ben te mundur qe lidhja te shfaqet si block*/
+    color: white;/* ndryshon ngjyren e text*/
+    text-align: center;/* ben te mundur pozicionimin e tekstit ne kete rast ne qender*/
+    padding: 14px 20px;/*vendos hapsiren brenda lidhjes 14pc lart dhe posht dhe 20px majtas dhe djathtas*/
+    text-decoration: none;/*heq vijen e poshtme te lidhjes*/
+}
+.navbar a:hover{
+    background-color: blueviolet;
+}
